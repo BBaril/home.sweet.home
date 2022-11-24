@@ -1,0 +1,66 @@
+/* Bethany Baril 
+Art 116 - Design for the Web I */
+
+body, html {
+	min-height:100%;
+}
+body{
+	font-family: Bree semibold, sans-serif;
+	font-size: x-large;
+	color: #149bef;
+	background-image:url(../images/background3.jpg);
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
+h2{
+	color: #149bef;
+	position: relative;
+	top: 25px;
+	text-align: center;
+
+	word-spacing: 50px;
+	background-image:url(../images/banner5.jpg);
+	background-size: 50%;
+	
+} 
+
+nav{
+	width: 100%;
+	position: relative;
+	Bottom: 0;
+	top: -136px;
+	left: 150px;
+	
+}
+
+nav ul li{
+	font-size: 42px;
+	list-style-type: none;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 90px;
+}
+
+nav ul li a{
+	color:#149bef;
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover{
+	color:#1b4660;
+}
+
+header {
+	background-image: url(../images/banner4.jpg);
+	background-size: 100%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
